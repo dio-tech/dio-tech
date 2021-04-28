@@ -15,6 +15,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 python create_projects.py
 '''
 
+# GOAL
+# Create a program that creates a project and automatically adds it to github and to my sublime's text folder
+
 browser = "https://github.com"
 
 class Bot:
@@ -61,3 +64,7 @@ MyPrompt().cmdloop()
 
 # FOLDER PATH
 # C:\Users\diogo\Sublime text
+
+# git init
+# git add .
+# git commit -m "first commit"
